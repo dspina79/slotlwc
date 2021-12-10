@@ -1,4 +1,6 @@
 <template>
-    <div style="font-size: x-large;">{HeaderText}</div>
+    <div style="font-size: x-large;">Title: {HeaderText}</div>
+    <div style="border: 2px solid red; min-height: 200px">
     <slot onprivateitemregister={handleRegister}></slot>
+</div>
 </template>
